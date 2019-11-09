@@ -6,20 +6,26 @@ Game with Unity3d
     * Score depends on your surviving time + 5 * gems
 
 
-####Main Menu
+#### Main Menu
+
 ![Main Menu](/Screenshots/Main Menu.png)
 
-####High Score
+#### High Score
+
 ![High Score](/Screenshots/High Score.png)
 
-####Instructions
+#### Instructions
+
 ![Instructions](/Screenshots/Instructions.png)
 
-####Credit
+#### Credit
+
 ![Credit](/Screenshots/Credit.png)
 
-####Game scene
+#### Game scene
+
 ![Game scene](/Screenshots/Game scene.png)
 
-####Death Menu
+#### Death Menu
+
 ![Death Menu](/Screenshots/Death Menu.png)
