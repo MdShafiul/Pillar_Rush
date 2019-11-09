@@ -1,9 +1,11 @@
 # Pillar_Rush
 Game with Unity3d
-####Game Rules :
-    * Avoid obstacles
-    * Collect gems
-    * Score depends on your surviving time + 5 * gems
+
+#### Game Rules :
+
+* Avoid obstacles
+* Collect gems
+* Score depends on your surviving time + 5 * gems
 
 
 #### Main Menu
