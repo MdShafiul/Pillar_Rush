@@ -12,11 +12,11 @@ Game with Unity3d
 
 #### Main Menu
 
-![Main Menu](/Screenshots/Main Menu.png)
+![Main Menu](/Screenshots/Main_Menu.png)
 
 #### High Score
 
-![High Score](/Screenshots/High Score.png)
+![High Score](/Screenshots/High_Score.png)
 
 #### Instructions
 
@@ -28,8 +28,8 @@ Game with Unity3d
 
 #### Game scene
 
-![Game scene](/Screenshots/Game scene.png)
+![Game scene](/Screenshots/Game_scene.png)
 
 #### Death Menu
 
-![Death Menu](/Screenshots/Death Menu.png)
+![Death Menu](/Screenshots/Death_Menu.png)
