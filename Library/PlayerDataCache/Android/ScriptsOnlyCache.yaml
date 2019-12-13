@@ -7,12 +7,21 @@ ScriptsOnlyBuild:
     - RotatePillars
     - Score
     - TileManager
+    GitHub.Unity.45.dll:
+    - GitHub.Unity.ApplicationCache
+    - GitHub.Unity.EnvironmentCache
+    - GitHub.Unity.GitAheadBehindCache
+    - GitHub.Unity.GitLogCache
+    - GitHub.Unity.GitUserCache
+    - GitHub.Unity.RepositoryInfoCache
+    - GitHub.Unity.Window
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -60,33 +69,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9356}
+      Script: {instanceID: 9390}
     - Class: 114
-      Script: {instanceID: 9364}
+      Script: {instanceID: 9398}
     - Class: 114
-      Script: {instanceID: 9464}
+      Script: {instanceID: 9500}
     - Class: 114
-      Script: {instanceID: 9466}
+      Script: {instanceID: 9502}
     - Class: 114
-      Script: {instanceID: 9472}
+      Script: {instanceID: 9508}
     - Class: 114
-      Script: {instanceID: 9478}
-    - Class: 114
-      Script: {instanceID: 9486}
+      Script: {instanceID: 9514}
     - Class: 114
       Script: {instanceID: 9522}
     - Class: 114
-      Script: {instanceID: 10174}
+      Script: {instanceID: 9558}
     - Class: 114
-      Script: {instanceID: 10182}
+      Script: {instanceID: 10310}
     - Class: 114
-      Script: {instanceID: 10448}
+      Script: {instanceID: 10318}
     - Class: 114
-      Script: {instanceID: 10614}
+      Script: {instanceID: 10588}
     - Class: 114
-      Script: {instanceID: 10750}
+      Script: {instanceID: 10756}
     - Class: 114
-      Script: {instanceID: 10952}
+      Script: {instanceID: 10896}
+    - Class: 114
+      Script: {instanceID: 11102}
+    - Class: 114
+      Script: {instanceID: 11104}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -145,33 +156,33 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9356}
+      Script: {instanceID: 9390}
     - Class: 114
-      Script: {instanceID: 9464}
+      Script: {instanceID: 9500}
     - Class: 114
-      Script: {instanceID: 9466}
+      Script: {instanceID: 9502}
     - Class: 114
-      Script: {instanceID: 9472}
+      Script: {instanceID: 9508}
     - Class: 114
-      Script: {instanceID: 9478}
-    - Class: 114
-      Script: {instanceID: 9486}
+      Script: {instanceID: 9514}
     - Class: 114
       Script: {instanceID: 9522}
     - Class: 114
-      Script: {instanceID: 9888}
+      Script: {instanceID: 9558}
     - Class: 114
-      Script: {instanceID: 10324}
+      Script: {instanceID: 9932}
     - Class: 114
-      Script: {instanceID: 10448}
+      Script: {instanceID: 10462}
     - Class: 114
-      Script: {instanceID: 10460}
+      Script: {instanceID: 10588}
     - Class: 114
-      Script: {instanceID: 10614}
+      Script: {instanceID: 10600}
     - Class: 114
-      Script: {instanceID: 10874}
+      Script: {instanceID: 10756}
     - Class: 114
-      Script: {instanceID: 10952}
+      Script: {instanceID: 11024}
+    - Class: 114
+      Script: {instanceID: 11104}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1879,6 +1890,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0d46336bcf2e124216f68c2c86a3d2f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreRotationWithCamera
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
