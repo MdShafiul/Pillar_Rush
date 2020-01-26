@@ -1,0 +1,4 @@
+#Mon Jan 27 01:23:47 BDT 2020
+base.0=G\:\\Github\\Pillar_Rush\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

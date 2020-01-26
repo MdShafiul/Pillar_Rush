@@ -7,12 +7,15 @@ ScriptsOnlyBuild:
     - RotatePillars
     - Score
     - TileManager
+    - UI_with_camera
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
+    - GitHub.Unity.BranchesCache
     - GitHub.Unity.EnvironmentCache
     - GitHub.Unity.GitAheadBehindCache
+    - GitHub.Unity.GitLocksCache
     - GitHub.Unity.GitLogCache
-    - GitHub.Unity.GitUserCache
+    - GitHub.Unity.GitStatusCache
     - GitHub.Unity.RepositoryInfoCache
     - GitHub.Unity.Window
     Unity.TextMeshPro.dll:
@@ -85,19 +88,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9558}
     - Class: 114
-      Script: {instanceID: 10310}
+      Script: {instanceID: 10312}
     - Class: 114
-      Script: {instanceID: 10318}
+      Script: {instanceID: 10320}
     - Class: 114
-      Script: {instanceID: 10588}
+      Script: {instanceID: 10590}
     - Class: 114
-      Script: {instanceID: 10756}
+      Script: {instanceID: 10758}
     - Class: 114
-      Script: {instanceID: 10896}
-    - Class: 114
-      Script: {instanceID: 11102}
+      Script: {instanceID: 10898}
     - Class: 114
       Script: {instanceID: 11104}
+    - Class: 114
+      Script: {instanceID: 11106}
+    - Class: 114
+      Script: {instanceID: 11882}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -170,19 +175,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9558}
     - Class: 114
-      Script: {instanceID: 9932}
+      Script: {instanceID: 9934}
     - Class: 114
-      Script: {instanceID: 10462}
+      Script: {instanceID: 10464}
     - Class: 114
-      Script: {instanceID: 10588}
+      Script: {instanceID: 10590}
     - Class: 114
-      Script: {instanceID: 10600}
+      Script: {instanceID: 10602}
     - Class: 114
-      Script: {instanceID: 10756}
+      Script: {instanceID: 10758}
     - Class: 114
-      Script: {instanceID: 11024}
+      Script: {instanceID: 11026}
     - Class: 114
-      Script: {instanceID: 11104}
+      Script: {instanceID: 11106}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -456,6 +461,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 0d46336bcf2e124216f68c2c86a3d2f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreRotationWithCamera
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -1895,7 +1906,7 @@ ScriptsOnlyBuild:
       Hash: 0d46336bcf2e124216f68c2c86a3d2f5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ScoreRotationWithCamera
+    className: UI_with_camera
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
